@@ -1,6 +1,6 @@
 # 💼 Portfoli
 
-Repositori de treballs realitzats durant el 1r curs de <b>Desenvolupament d'Aplicacions Multiplataforma</b>.
+Repositori de treballs realitzats durant el 1r curs del CFGS de <b>Desenvolupament d'Aplicacions Multiplataforma</b>.
 
 <br/>
 
