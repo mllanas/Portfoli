@@ -5,5 +5,5 @@ Repositori de treballs realitzats durant el 1r curs del CFGS de <b>Desenvolupame
 <br/>
 
 ## Mòduls Curs (1r DAM)
-- M01 - Sistemes Informàtics
-- M02 - Bases de Dades
+- [M01 - Sistemes Informàtics](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M01_SistemesInform%C3%A0tics)
+- [M02 - Bases de Dades](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M02_BasesDeDades)
