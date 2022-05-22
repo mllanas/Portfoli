@@ -1,15 +1,15 @@
 /*
  * Fes un programa que ens demani un nombre natural n i ens escrigui el valor 
- * del nombre e amb precisiÛ n. 
- * El resultat síhaur‡ de donar amb 10 xifres decimals. 
+ * del nombre e amb precisi√≥ n. 
+ * El resultat s‚Äôhaur√† de donar amb 10 xifres decimals. 
  * (e n = 1/0! + 1/1! + 1/2! + 1/3! + ............ + 1/n!)
  * 
  * Input:
  * 8
  * 4
  * Output:
- * El nombre e amb precisiÛ 8 Ès: 2.7182787698
- * El nombre e amb precisiÛ 4 Ès: 2.7083333333
+ * El nombre e amb precisi√≥ 8 √©s: 2.7182787698
+ * El nombre e amb precisi√≥ 4 √©s: 2.7083333333
  */
 
 package cat.copernic.m03.uf1a3;
@@ -21,7 +21,7 @@ import java.util.Scanner;
  *
  * @author txell
  */
-public class EX14_NombreE {
+public class Ex14_NombreE {
 
     public static void main(String[] args) {
         
@@ -33,14 +33,14 @@ public class EX14_NombreE {
         
         double resultat = 0.0;
         
-        // 1. RECORRER un LOOP per cada posiciÛ
+        // 1. RECORRER un LOOP per cada posici√≥
         for (int i = 0; i<= n; ++i)
         {
             // 2. CALCULAR factorial de i! = 4! = 4*3*2*1
             int factorial = 1;
-            for (int j = i; j > 1; --j) // optimitzaciÛ: no cal arribar a 1, pq multiplicar per 1 no aporta un nou valor, per tant (j>=1  --> j>1)
+            for (int j = i; j > 1; --j) // optimitzaci√≥: no cal arribar a 1, pq multiplicar per 1 no aporta un nou valor, per tant (j>=1  --> j>1)
             {
-                factorial *= j;   // el factorial de 0 Ès 1  !0 = 1,   
+                factorial *= j;   // el factorial de 0 √©s 1  !0 = 1,   
                 // j=4   1 * 4 = 4
                 // j=3   4 * 3 = 12
                 // j=2   4 * 3 * 2 = 24
@@ -49,10 +49,10 @@ public class EX14_NombreE {
             }
             
             resultat += 1.0/factorial;  // passar el factorial a double, hi ha 2 maneres: 
-                                        // forÁar al numerador: 1.0/factorial; 
-                                        // via c‡sting: (double)1/factorial; 
+                                        // for√ßar al numerador: 1.0/factorial; 
+                                        // via c√†sting: (double)1/factorial; 
         }
-        System.out.printf("El nombre e amb precisiÛ "+ n +" Ès: %.10f\n", 
+        System.out.printf("El nombre e amb precisi√≥ "+ n +" √©s: %.10f\n", 
                           resultat);        
     }
 }
