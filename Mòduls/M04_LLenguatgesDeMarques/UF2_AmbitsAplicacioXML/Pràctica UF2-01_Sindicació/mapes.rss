@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  version="2.0"> 
+    
+    <channel>  
+        
+        <title>Mapes</title>
+        <link>https://www.portaventuraworld.com/ca/zones</link> 
+        <description>Tota la informació de cada zona a mà: Atraccions, Restaurants, Botigues i Espectacles.</description>        
+        <category>zones parc</category>    
+        <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>  
+        
+        <language>ca</language>
+        
+        <webMaster>webmaster@portaventuraworld.com</webMaster>              
+        
+        <item>
+            <title><![CDATA[<h2>ZONA MEDITERRÀNIA</h2>]]></title>
+            <guid isPermaLink="false">zona01</guid>
+            <link>https://www.portaventuraworld.com/ca/portaventura/mediterrania</link>
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/medit-2f9263754ede8448e553b8dbb3ff4077.jpg" style="border-radius:6px"></p><p>Descobreix  una de les zones més característiques de PortAventura. Inspirada en un poble de pescadors, acull diversió i tradició en la mateixa mesura.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        </item>
+        
+        <item>
+            <title><![CDATA[<h2>ZONA POLYNESIA</h2>]]></title>
+            <link>https://www.portaventuraworld.com/ca/portaventura/polynesia</link>
+            <guid isPermaLink="false">zona02</guid>
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/poly-17fe8e5aa06b19d094fbb3b834b0a42f.png" style="border-radius:6px"></p><p>Encara no coneixes Polynesia? Explora-la i gaudeix de les experiències més divertides i exòtiques de la jungla, i d'atraccions plenes d'emocions.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        </item>
+        
+        <item>
+            <title><![CDATA[<h2>ZONA CHINA</h2>]]></title>
+            <link>https://www.portaventuraworld.com/ca/portaventura/china</link>
+            <guid isPermaLink="false">zona03</guid>
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/ch-52c8e2aed41d80b83f57f0338ab55c8e.jpg" style="border-radius:6px"></p><p>Endinsa't a la Xina colonial i viu en primera persona les experiències més impressionants a Shambhala o al temible Dragon Khan.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title><![CDATA[<h2>ZONA MÉXICO</h2>]]></title>
+            <link>https://www.portaventuraworld.com/ca/portaventura/mexico</link>
+            <guid isPermaLink="false">zona04</guid>
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/mex-9dacefe1583d53b5dbdc71fb01786b42.jpg" style="border-radius:6px"></p><p>Deixa't portar per les atraccions impressionants de l'àrea de México a PortAventura, i pel ritme dels seus famosos mariachis.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        </item>
+
+        <item>
+            <title><![CDATA[<h2>ZONA SÉSAMOAVENTURA</h2>]]></title>
+            <link>https://www.portaventuraworld.com/ca/portaventura/sesamo-aventura</link>
+            <guid isPermaLink="false">zona05</guid>
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/sesamo-076362692f1e4822eaa3f34fcf0d4ce3.jpg" style="border-radius:6px"></p><p>Vine i descobreix SésamoAventura, l'àrea de PortAventura World dedicada als més petits; i coneix els fabulosos personatges que hi viuen: l'Epi, en Blai i la resta de personatges de Barri Sèsam t'hi esperen!.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        </item>
+        
+        <item>
+            <title><![CDATA[<h2>ZONA FAR WEST</h2>]]></title>
+            <link>https://www.portaventuraworld.com/ca/portaventura/far-west</link>
+            <guid isPermaLink="false">zona06</guid>
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/fw-ba7e2442e73e3f4125cf551a4d0368ee.jpg" style="border-radius:6px"></p><p>Experimenta com un autèntic vaquer de l'oest llunyà a l'àrea de Far West, inspirada en la cultura nord-americana.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        </item>
+                                                                
+    </channel>
+	
+</rss>

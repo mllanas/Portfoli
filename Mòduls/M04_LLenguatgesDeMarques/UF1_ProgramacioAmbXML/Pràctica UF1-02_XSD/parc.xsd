@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="parc">
+    <xs:complexType>
+      <xs:sequence>
+      
+        <xs:element name="adreca" type="xs:string" fixed="Passeig de la sort, 1"/>
+        <xs:element name="ciutat" type="xs:string" fixed="Can Puces"/>
+        <xs:element name="pais" type="xs:string" fixed="Espanya"/>
+        <xs:element name="paginaWeb" type="xs:string" fixed="http://www.coperaventura.com"/>
+        
+        <!--element dates-->
+        <xs:element name="dates">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dataObertura" type="xs:date"/>  <!-- Si només es pot repetir 1 cop, no es posa res pq com a default ho interpreta com: minOccurs="1" maxOccurs="1"-->
+              <xs:element name="dataTancament" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+        <!--element horaris-->
+        <xs:element name="horaris">
+          <xs:complexType>
+            <xs:sequence>
+            
+              <!--element mes-->
+              <xs:element name="mes" maxOccurs="7">
+                <xs:complexType>
+                    <xs:sequence>
+                    
+                      <!--element horaObertura-->
+                      <xs:element name="horaObertura">
+                        <xs:complexType>
+                          <xs:sequence> 
+                                                   
+                            <!--element periode-->
+                            <xs:element name="periode" maxOccurs="unbounded">
+                              <xs:complexType>
+                                <xs:sequence>                                  
+                                  <xs:element name="diaSetmana" type="diesSetmana" maxOccurs="7"/><!--element diaSetmana--> <!--RESTRICCIONS!!!-->
+                                </xs:sequence>
+                                <xs:attribute name="diaInici" type="diesMes" use="required"/><!--atribut ELEMENT: periode-->
+                                <xs:attribute name="diaFinal" type="diesMes" use="required"/><!--atribut ELEMENT: periode-->
+                              </xs:complexType>                              
+                            </xs:element><!-- FI periode -->
+                                                        
+                          </xs:sequence>
+                          <xs:attribute name="hora" type="xs:time" use="required"/><!-- atribut ELEMENT: horaObertura-->
+                        </xs:complexType>                        
+                      </xs:element><!-- FI horaObertura -->
+                      
+                      <!--element horaTancament-->
+                      <xs:element name="horaTancament" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                          
+                            <!--element periode-->
+                            <xs:element name="periode" maxOccurs="unbounded">
+                              <xs:complexType>
+                                <xs:sequence>                                  
+                                  <xs:element name="diaSetmana" type="diesSetmana" maxOccurs="7"/><!--element diaSetmana--> <!--RESTRICCIONS!!!-->
+                                </xs:sequence>
+                                <xs:attribute name="diaInici" type="diesMes" use="required"/><!--atribut ELEMENT: periode-->
+                                <xs:attribute name="diaFinal" type="diesMes" use="required"/><!--atribut ELEMENT: periode-->
+                              </xs:complexType>                              
+                            </xs:element><!-- FI periode -->
+                            
+                          </xs:sequence>
+                          <xs:attribute name="hora" type="xs:time" use="required"/><!-- atribut ELEMENT: horaTancament-->
+                        </xs:complexType>
+                      </xs:element><!-- FI horaTancament -->
+                      
+                    </xs:sequence>
+                    <xs:attribute name="nom" type="mesos" use="required"/><!--atribut ELEMENT: mes-->
+                  </xs:complexType>                  
+                </xs:element><!-- FI mes -->
+                
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element><!-- FI horaris -->
+          
+          <!--element atraccions-->
+          <xs:element name="atraccions">
+            <xs:complexType>
+              <xs:sequence>
+            
+                <!--element zona-->
+                <xs:element name="zona" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:sequence>
+                      
+                      <!--element atraccio-->
+                      <xs:element name="atraccio" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="servei" type="serveis" minOccurs="0" maxOccurs="4"/>
+                            <xs:element name="alcadaMinima" minOccurs="0" maxOccurs="2">
+                              <!--EXTENSIO per alçada minima--> 
+                              <xs:complexType>
+                                <xs:simpleContent>
+                                  <xs:extension base="alcada"> <!-- atribut adult si/no-->
+                                    <xs:attribute name="adult" type="xs:boolean" use="required"/>
+                                  </xs:extension>
+                                </xs:simpleContent>
+                              </xs:complexType><!--FI EXTENSIO-->
+                              </xs:element>
+                            <xs:element name="alcadaMaxima" type="alcada" minOccurs="0"/><!-- 0= no tenen alçada max.-->
+                            <xs:element name="intensitat" type="intensitats"/>
+                          </xs:sequence>
+                          <xs:attribute name="nom" type="xs:string" use="required"/><!--atribut ELEMENT: atraccio-->
+                        </xs:complexType>
+                      </xs:element><!-- FI atraccio-->                    
+                    
+                    </xs:sequence>
+                    <xs:attribute name="nom" type="zones" use="required"/><!--atribut ELEMENT: zona-->
+                  </xs:complexType>
+                </xs:element><!-- FI zona-->
+          
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element><!-- FI atraccions-->
+
+          <!--element espectacles-->
+          <xs:element name="espectacles">
+            <xs:complexType>
+              <xs:sequence>
+            
+                <!--element zona-->
+                <xs:element name="zona" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:sequence>
+                      
+                      <!--element espectacle-->
+                      <xs:element name="espectacle" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="servei" type="serveis" minOccurs="0" maxOccurs="3"/>
+                            
+                            <!--element horari-->
+                            <xs:element name="horari">
+                            <xs:complexType>
+                              <xs:sequence>
+                                
+                              <!--element passi-->
+                              <xs:element name="passi" maxOccurs="unbounded">
+                              <xs:complexType>
+                                <xs:sequence>
+                                <xs:element name="horaInici" type="xs:time" minOccurs="1"/>
+                                <xs:element name="horaFinal" type="xs:time" minOccurs="0"/>
+                                <xs:element name="diaSetmana" type="diesSetmana" maxOccurs="7"/>
+                                </xs:sequence>
+                              </xs:complexType>
+                              </xs:element><!-- FI passi-->
+                              
+                              </xs:sequence>
+                            </xs:complexType>
+                            </xs:element><!-- FI horari-->
+                            
+                            <xs:element name="tipus" type="tipusEspectacles" maxOccurs="1"/>
+                          </xs:sequence>
+                          <xs:attribute name="nom" type="xs:string" use="required"/><!--atribut ELEMENT: atraccio-->
+                        </xs:complexType>
+                      </xs:element><!-- FI espectacle-->
+                    
+                    </xs:sequence>
+                    <xs:attribute name="nom" type="zones" use="required"/><!--atribut ELEMENT: zona-->
+                  </xs:complexType>
+                </xs:element><!-- FI zona-->
+          
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element><!-- FI espectacles-->
+          
+          <!--element restaurants-->
+          <xs:element name="restaurants">
+            <xs:complexType>
+              <xs:sequence>
+            
+                <!--element zona-->
+                <xs:element name="zona" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:sequence>
+                      
+                      <!--element restaurant-->
+                      <xs:element name="restaurant" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="servei" type="serveis" minOccurs="0" maxOccurs="2"/>
+                            <xs:element name="menuEspecial" type="menus" minOccurs="0" maxOccurs="2"/>
+                          </xs:sequence>
+                          <xs:attribute name="nom" type="xs:string" use="required"/><!--atribut ELEMENT: restaurant-->
+                        </xs:complexType>
+                      </xs:element><!-- FI restaurant-->
+                    
+                    </xs:sequence>
+                    <xs:attribute name="nom" type="zones" use="required"/><!--atribut ELEMENT: zona-->
+                  </xs:complexType>
+                </xs:element><!-- FI zona-->
+          
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element><!-- FI restaurants-->
+          
+          <!--element botigues-->
+          <xs:element name="botigues">
+            <xs:complexType>
+              <xs:sequence>
+            
+                <!--element zona-->
+                <xs:element name="zona" maxOccurs="unbounded">
+                  <xs:complexType>
+                    <xs:sequence>
+                      
+                      <!--element botiga-->
+                      <xs:element name="botiga" maxOccurs="unbounded">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="servei" type="serveis" minOccurs="0" maxOccurs="1"/>
+                            <xs:element name="producte" type="productes" minOccurs="1" maxOccurs="2"/>
+                          </xs:sequence>
+                          <xs:attribute name="nom" type="xs:string" use="required"/><!--atribut ELEMENT: botiga-->
+                        </xs:complexType>
+                      </xs:element><!-- FI botiga-->
+                    
+                    </xs:sequence>
+                    <xs:attribute name="nom" type="zones" use="required"/><!--atribut ELEMENT: zona-->
+                  </xs:complexType>
+                </xs:element><!-- FI zona-->
+          
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element><!-- FI botigues-->
+          
+      </xs:sequence>
+      <xs:attribute name="nom" type="xs:string" use="required" fixed="CoperAventura S.A."/><!--atribut ELEMENT: parc-->      
+    </xs:complexType>    
+  </xs:element><!--FI parc-->
+   
+
+  <!--restriccions-->
+  <xs:simpleType name="mesos">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Juliol"/>
+      <xs:enumeration value="Agost"/>
+      <xs:enumeration value="Setembre"/>
+      <xs:enumeration value="Octubre"/>
+      <xs:enumeration value="Novembre"/>
+      <xs:enumeration value="Desembre"/>
+      <xs:enumeration value="Gener"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="diesSetmana">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Dilluns"/>
+      <xs:enumeration value="Dimarts"/>
+      <xs:enumeration value="Dimecres"/>
+      <xs:enumeration value="Dijous"/>
+      <xs:enumeration value="Divendres"/>
+      <xs:enumeration value="Dissabte"/>
+      <xs:enumeration value="Diumenge"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="diesMes">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="31"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="zones">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ESO"/>
+      <xs:enumeration value="Batxillerat"/>
+      <xs:enumeration value="GM"/>
+      <xs:enumeration value="GS"/>
+      <xs:enumeration value="Profes"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="serveis">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PassPreferent"/>
+      <xs:enumeration value="Accés discapacitat"/>
+      <xs:enumeration value="Fotografia"/>
+      <xs:enumeration value="Vídeo"/>
+      <xs:enumeration value="Seient VIP"/>
+      <xs:enumeration value="Autoservei"/>
+      <xs:enumeration value="Taula"/>
+      <xs:enumeration value="Servei de recollida"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <!--restricció de type=ALCADA-->
+  <xs:simpleType name="alcada">
+    <xs:restriction base="xs:decimal">
+      <xs:totalDigits value="3"/>
+      <xs:fractionDigits value="2"/>
+      <xs:minInclusive value="0.95"/>
+      <xs:maxInclusive value="1.95"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="intensitats">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Infantil"/>
+      <xs:enumeration value="Suau"/>
+      <xs:enumeration value="Moderada"/>
+      <xs:enumeration value="Forta"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="tipusEspectacles">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Desfilada"/>
+      <xs:enumeration value="Aventura"/>
+      <xs:enumeration value="Musical"/>
+      <xs:enumeration value="Didàctic"/>
+      <xs:enumeration value="Passatge del terror"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="menus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Infantil"/>
+      <xs:enumeration value="Celíac"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="productes">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Souvenirs"/>
+      <xs:enumeration value="Llaminadures"/>
+      <xs:enumeration value="Fotografies"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  
+  
+</xs:schema>

@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="es">
+        
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Description" content="Pràctica Html+Css">
+        <meta name="author" content="Meritxell Llanas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zones del Parc | CoperAventura</title>
+        <!-- CSS project link -->
+        <link rel="stylesheet" type="text/css" href="css/estils.css" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;1,200;1,400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <button onclick="topFunction()" id="boto-amunt" title="Pujar a l'inici">&#x2b06;</button>
+        <div class="contenidor">
+            <!-- header -->
+            <header>
+                <div id="logo">
+                    <a href="index.html" title="CoperAventura SA">
+                        <img src="img/logo.png" alt="Perfil d'una muntanya russa" width="250" height="auto"/>
+                    </a>
+                </div>
+                <div id="nom-parc">
+                    <h1 class="tipo-titular">CoperAventura S.A.</h1>
+                </div>
+            </header>
+            <!-- end header -->
+
+            <!-- navigation -->
+            <nav>
+                <ul>
+                    <li class="nav-item"><a href="horaris.html" class="boto"
+                            title="Veure Horaris"><span>&#x1f4c5;</span>Horaris</a></li>
+                    <li class="nav-item"><a href="zones.html" class="boto actiu"
+                            title="Visitar Zones"><span>&#x1f5fa;&#xfe0f;</span>Zones</a></li>
+                </ul>
+            </nav>
+            <!-- end navigation -->
+
+            <!-- Section 1: Zones -->
+            <main>
+                <div class="breadcrumb">
+                    <span><a href="index.html">Inici</a> / Zones del parc</span>
+                </div>
+                <div class="page-wrapper">
+                    <div class="bloc-fila">
+                        <table>
+                            <tr>
+                                <td class="boto-zones"><a href="#eso">ESO</a></td>
+                                <td class="boto-zones"><a href="#batxillerat">Batxillerat</a></td>
+                                <td class="boto-zones"><a href="#gm">Grau Mig</a></td>
+                                <td class="boto-zones"><a href="#gs">Grau Superior</a></td>
+                                <td class="boto-zones"><a href="#profes">Professors</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <section id="zones">
+                        <!-- ESO -->
+                        <article id="eso" class="capsa">
+                            <div class="banner-zona-eso"></div>
+                            <h1 id="eso">Zona ESO</h1>
+                            <p>Per tots aquells que pateixen d'hiperactivitat, no dubteu en visitar la zona d'E.S.O.
+                                Cinc inquietants atraccions que mantindran ocupats tots els vostres sentits! I per reposar
+                                forces, compteu amb <b>La Cuina de l'ESO</b>, on provar el millor Fast-Food de tota la zona.
+                            </p>
+
+                            <!-- Serveis -->
+                            <div class="bloc-fila">
+                                <!-- Atraccions -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3a2;</span>
+                                            <h3>Atraccions</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th rowspan="2"></th>
+                                                <th rowspan="2" class="capsalera">Serveis</th>
+                                                <th colspan="2" class="capsalera">Alçada</th>
+                                                <th rowspan="2" class="capsalera">Intensitat</th>
+                                            </tr>
+                                            <tr>
+                                                <th>mínima<br> <span class="txt-vermell">*Acompanyat d'adult</span></th>
+                                                <th>màxima</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Pati Mission</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                        <li>Video</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1,10 m</span> <br> 1,20 m</td>
+                                                <td></td>
+                                                <td>Infantil</td>
+                                            </tr>
+                                            <tr>
+                                                <td>L’aula misteriosa</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Infantil</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Magic entrepà</td>
+                                                <td></td>
+                                                <td><span class="txt-vermell">1,30 m</span> <br> 1,40 m</td>
+                                                <td></td>
+                                                <td>Infantil</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Profe-Profe</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1 m</span> <br> 1,30 m</td>
+                                                <td></td>
+                                                <td>Infantil</td>
+                                            </tr>
+                                            <tr>
+                                                <td>El salt a la pissarra</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">0,95 m</span> <br> 1,30 m</td>
+                                                <td></td>
+                                                <td>Infantil</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Espectacles -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3ad;</span>
+                                            <h3>Espectacles</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Serveis</th>
+                                                <th class="capsalera">Horari</th>
+                                                <th class="capsalera">Tipus</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Aloha alumnes</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td>(cada dia)<br>11:30, 14:00, 16:00, 17:00</td>
+                                                <td>Aventura</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Em sento al paradís</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td>(De dilluns a divendres)<br>13:00, 15:00<br><br>
+                                                    (Dissabtes i diumenges)<br>12:00, 13:30, 15:30</td>
+                                                <td>Didàctic</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Botigues -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f6cd;&#xfe0f;</span>
+                                            <h3>Botigues</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Productes</th>
+                                                <th class="capsalera">Servei de recollida</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>ESOTenda</td>
+                                                <td>Souvenirs</td>
+                                                <td>x</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fotos 'Profe-Profe'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fotos 'Pati Mission'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Restaurants -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f37d;&#xfe0f;</span>
+                                            <h3>Restaurants</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Tipus de Servei</th>
+                                                <th class="capsalera">Menú Especial</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>La Cuina de l’ESO</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Taula</li>
+                                                        <li>Autoservei</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Infantil</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!-- fi Serveis -->
+                        </article> <!-- fi ESO -->
+
+                        <!-- BATXILLERAT -->
+                        <article id="batxillerat" class="capsa">
+                            <div class="banner-zona-batx"></div>
+                            <h1 id="eso">Zona BATXILLERAT</h1>
+                            <p>Necessites un pèl més d'emocions? Doncs estàs al lloc indicat. Desafia la sort completant
+                                 l'itinerari de les quatre atraccions que completen aquesta zona. Creus que podràs
+                                 aguantar tot el trajecte de l'atracció <b>Furius Selectivity</b>? Immortalitza els millors 
+                                 moments recollint les fotos-testimoni a la tenda de Fotos 'Furius Selectivity'.</p>
+
+                            <!-- Serveis -->
+                            <div class="bloc-fila">
+                                <!-- Atraccions -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3a2;</span>
+                                            <h3>Atraccions</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th rowspan="2"></th>
+                                                <th rowspan="2" class="capsalera">Serveis</th>
+                                                <th colspan="2" class="capsalera">Alçada</th>
+                                                <th rowspan="2" class="capsalera">Intensitat</th>
+                                            </tr>
+                                            <tr>
+                                                <th>mínima<br> <span class="txt-vermell">*Acompanyat d'adult</span></th>
+                                                <th>màxima</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Furius Selectivity</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                        <li>Video</li>
+                                                    </ul>
+                                                </td>
+                                                <td>1,40 m</td>
+                                                <td>1,95 m</td>
+                                                <td>Forta</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Examen Splash</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1,30 m</span><br> 1,40 m</td>
+                                                <td></td>
+                                                <td>Moderada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Juny Wave</td>
+                                                <td></td>
+                                                <td><span class="txt-vermell">1,30 m</span><br> 1,40 m</td>
+                                                <td></td>
+                                                <td>Moderada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>El tren de sortida</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Suau</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Botigues -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f6cd;&#xfe0f;</span>
+                                            <h3>Botigues</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Productes</th>
+                                                <th class="capsalera">Servei de recollida</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Fotos 'Furius Selectivity'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Records 'CoperAvetura'</td>
+                                                <td>Souvenirs</td>
+                                                <td>x</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dolços del mes</td>
+                                                <td>Llaminadures</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Restaurants -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f37d;&#xfe0f;</span>
+                                            <h3>Restaurants</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Tipus de Servei</th>
+                                                <th class="capsalera">Menú Especial</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Aiguaesfera Classes i Aigua</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Taula</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Infantil</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Café de Primera Hora</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Autoservei</li>
+                                                    </ul>
+                                                </td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!-- fi Serveis -->
+                        </article> <!-- fi BATXILLERAT -->
+
+                        <!-- GM -->
+                        <article id="gm" class="capsa">
+                            <div class="banner-zona-gm"></div>
+                            <h1 id="eso">Zona GRAU MIG</h1>
+                            <p>Aquí ja comença a notar-se la pujada d'emocions... per si les anteriors no
+                                 t'havien provocat miocarditis encara... Gaudeix de quatre atraccions
+                                 per gaudir del risc d'allò més! I per culminar l'experiència, no oblidis
+                                 visitar l'espectacle de terror <b>CCC©Experience</b> (millor assistir-hi amb l'estómac buit).</p>
+
+                            <!-- Serveis -->
+                            <div class="bloc-fila">
+                                <!-- Atraccions -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3a2;</span>
+                                            <h3>Atraccions</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th rowspan="2"></th>
+                                                <th rowspan="2" class="capsalera">Serveis</th>
+                                                <th colspan="2" class="capsalera">Alçada</th>
+                                                <th rowspan="2" class="capsalera">Intensitat</th>
+                                            </tr>
+                                            <tr>
+                                                <th>mínima<br> <span class="txt-vermell">*Acompanyat d'adult</span></th>
+                                                <th>màxima</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Pràctiques River Flume</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1,30 m</span> <br> 1,40 m</td>
+                                                <td></td>
+                                                <td>Moderada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dies Festius Rapids</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Fotografia</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1,20 m</span> <br> 1,30 m</td>
+                                                <td></td>
+                                                <td>Moderada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Crazy Crèdit Síntesi</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1,20 m</span> <br> 1,30 m</td>
+                                                <td></td>
+                                                <td>Moderada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Les canoes del traspas</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Suau</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Espectacles -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3ad;</span>
+                                            <h3>Espectacles</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Serveis</th>
+                                                <th class="capsalera">Horari</th>
+                                                <th class="capsalera">Tipus</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>CCC©Experience</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td>(Dissabtes)<br>11:30 a 13:30 i 15:00 a 18:30<br><br>
+                                                    (Diumenges)<br>11:00 a 13:00 i 14:30 a 17:30</td>
+                                                <td>Passatge del terror</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Botigues -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f6cd;&#xfe0f;</span>
+                                            <h3>Botigues</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Productes</th>
+                                                <th class="capsalera">Servei de recollida</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Fotos 'Pràctiques River Flume'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fotos 'Dies Festius Rapids'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>GM Store</td>
+                                                <td>Souvenirs</td>
+                                                <td>x</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dies Festius Rapids Shop</td>
+                                                <td>Souvenirs, Llaminadures</td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!-- fi Serveis -->
+                        </article> <!-- fi GM -->
+
+                        <!-- GS -->
+                        <article id="gs" class="capsa">
+                            <div class="banner-zona-gs"></div>
+                            <h1 id="eso">Zona GRAU SUPERIOR</h1>
+                            <p>Pocs decideixen endinsar-se a aquesta zona. I no és per menys. Cal tenir molt 
+                                de nivell per graduar-se com a Tècnic Superior, però també per pujar a les dues 
+                             atraccions estrella del lloc: <b>Dual Khan</b> i <b>Dhambhala</b>. Creus que tindràs prou valor?</p>
+
+                            <!-- Serveis -->
+                            <div class="bloc-fila">
+                                <!-- Atraccions -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3a2;</span>
+                                            <h3>Atraccions</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th rowspan="2"></th>
+                                                <th rowspan="2" class="capsalera">Serveis</th>
+                                                <th colspan="2" class="capsalera">Alçada</th>
+                                                <th rowspan="2" class="capsalera">Intensitat</th>
+                                            </tr>
+                                            <tr>
+                                                <th>mínima<br> <span class="txt-vermell">*Acompanyat d'adult</span></th>
+                                                <th>màxima</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Dual Khan</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                        <li>Vídeo</li>
+                                                    </ul>
+                                                </td>
+                                                <td>1,40 m</td>
+                                                <td>1,95 m</td>
+                                                <td>Forta</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dhambhala</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                        <li>Vídeo</li>
+                                                    </ul>
+                                                </td>
+                                                <td>1,40 m</td>
+                                                <td></td>
+                                                <td>Forta</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Projecte Climbing</td>
+                                                <td></td>
+                                                <td><span class="txt-vermell">1,20 m</span> <br> 1,30 m</td>
+                                                <td>1,50 m</td>
+                                                <td>Moderada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Coperkor</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                        <li>Fotografia</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1,20 m</span> <br> 1,30 m</td>
+                                                <td></td>
+                                                <td>Suau</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Espectacles -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3ad;</span>
+                                            <h3>Espectacles</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Serveis</th>
+                                                <th class="capsalera">Horari</th>
+                                                <th class="capsalera">Tipus</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Around the Coper</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td>(Dl, dx, dj, dv i dg)<br>14:00, 16:00<br><br>
+                                                    (Dissabtes)<br>16:00, 18:00</td>
+                                                <td>Musical</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Botigues -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f6cd;&#xfe0f;</span>
+                                            <h3>Botigues</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Productes</th>
+                                                <th class="capsalera">Servei de recollida</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Fotos 'Dual Khan'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Fotos 'Dhambhala'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>GM Palace</td>
+                                                <td>Souvenirs</td>
+                                                <td>x</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Restaurants -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f37d;&#xfe0f;</span>
+                                            <h3>Restaurants</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Tipus de Servei</th>
+                                                <th class="capsalera">Menú Especial</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>The Iron Student</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Taula</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Celíac, Infantil</td>
+                                            </tr>
+                                            <tr>
+                                                <td>The New Snack House</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Autoservei</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Celíac</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!-- fi Serveis -->
+                        </article> <!-- fi GS -->
+
+                        <!-- PROFES -->
+                        <article id="profes" class="capsa">
+                            <div class="banner-zona-profes"></div>
+                            <h1 id="eso">Zona PROFES</h1>
+                            <p>No podem desvetllar els terribles secrets i emocions que s'amaguen a la zona dels Professors. Només
+                                és apta pels que superin amb èxit la zona de Grau Superior. Avisats esteu...</p>
+
+                            <!-- Serveis -->
+                            <div class="bloc-fila">
+                                <!-- Atraccions -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3a2;</span>
+                                            <h3>Atraccions</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th rowspan="2"></th>
+                                                <th rowspan="2" class="capsalera">Serveis</th>
+                                                <th colspan="2" class="capsalera">Alçada</th>
+                                                <th rowspan="2" class="capsalera">Intensitat</th>
+                                            </tr>
+                                            <tr>
+                                                <th>mínima<br> <span class="txt-vermell">*Acompanyat d'adult</span></th>
+                                                <th>màxima</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>El temple de les notes</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                        <li>Accés Discapacitats</li>
+                                                    </ul>
+                                                </td>
+                                                <td><span class="txt-vermell">1 m</span> <br> 1,40 m</td>
+                                                <td></td>
+                                                <td>Moderada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>El secret dels alumnes</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td>Suau</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hurakan Truancy</td>
+                                                <td> <ul>
+                                                    <li>Accés Discapacitats</li>
+                                                    <li>Fotografia</li>
+                                                </ul></td>
+                                                <td>1,40 m</td>
+                                                <td>1,95 m</td>
+                                                <td>Forta</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Espectacles -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f3ad;</span>
+                                            <h3>Espectacles</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Serveis</th>
+                                                <th class="capsalera">Horari</th>
+                                                <th class="capsalera">Tipus</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>CoperParade</td>
+                                                <td></td>
+                                                <td>(Dissabtes i Diumenges)<br>20:00 a 22:00</td>
+                                                <td>Desfilada</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Apocalipsis COVID</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>PassPreferent</li>
+                                                    </ul>
+                                                </td>
+                                                <td>(Dissabtes)<br>12:30 a 14:30 i <br>de 16:00 a 18:30<br><br>
+                                                    (Diumenges)<br>11:30 a 13:30 i <br>de 15:00 a 17:00</td>
+                                                <td>Passatge del terror</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Botigues -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f6cd;&#xfe0f;</span>
+                                            <h3>Botigues</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Productes</th>
+                                                <th class="capsalera">Servei de recollida</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Fotos 'Hurakan Truancy'</td>
+                                                <td>Fotografies</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Hurakan Truancy Shop</td>
+                                                <td>Souvenirs</td>
+                                                <td>x</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- Restaurants -->
+                                <div class="capsa-serveis">
+                                    <button class="desplegable">
+                                        <div class="titol-servei">
+                                            <span>&#x1f37d;&#xfe0f;</span>
+                                            <h3>Restaurants</h3>
+                                        </div>
+                                    </button>
+                                    <table style="display: none;">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th class="capsalera">Tipus de Servei</th>
+                                                <th class="capsalera">Menú Especial</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Cantina del Coper</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Taula</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Celíac, Infantil</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Un entrepà express</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Autoservei</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Celíac</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div> <!-- fi Serveis -->
+                        </article> <!-- fi PROFES -->
+                    </section>
+                </div><!-- fi page-wrapper -->
+            </main>
+            <!-- end section -->
+
+            <!-- footer -->
+            <footer>
+                <div id="info">
+                    <span>&#x1f4eb;&nbsp;Passeig de la sort, 1 (Can Puces). Espanya</span>
+                    <span>&#x1f4e8;&nbsp;<a href="#">wooow@coperaventura.com</a></span>
+                </div>
+                <div id="copyright">
+                    <span>Tots els drets reservats © 2021</span>
+                </div>
+            </footer>
+        </div> <!-- fi contenidor -->
+
+        <!-- SCRIPTS -->
+        <script>
+            var acc = document.getElementsByClassName("desplegable");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("desplegat-actiu");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "inline-table") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "inline-table";
+                    }
+                });
+            }
+        </script>
+
+        <!-- Botó amunt -->
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("boto-amunt");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+
+    </body>
+
+</html>

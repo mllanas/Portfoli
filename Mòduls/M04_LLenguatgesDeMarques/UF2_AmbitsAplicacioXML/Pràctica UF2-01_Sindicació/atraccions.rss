@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  version="2.0"> 
+    
+    <channel>  
+        
+        <title>Atraccions</title>
+        <link>https://www.portaventuraworld.com/ca/atraccions</link>
+        <description>Informació sobre les millors atraccions del parc.</description> 
+        <category>atraccions</category>    
+        <pubDate>Tue, 11 Jan 2022 10:53:00 +0100</pubDate>
+        
+        <skipDays>            
+            <day>Friday</day>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>   
+        
+        <skipHours>
+            <hour>09</hour>
+            <hour>10</hour>
+            <hour>11</hour>
+            <hour>12</hour>
+            <hour>13</hour>
+            <hour>14</hour>
+            <hour>15</hour>
+            <hour>16</hour>                                               
+        </skipHours>
+        
+        <language>ca</language>
+        
+        <webMaster>webmaster@portaventuraworld.com</webMaster>
+        
+        <item>
+            <title><![CDATA[<h2>FURIUS BACO</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/atraccions/furius-baco</link>
+            <guid isPermaLink="false">atraccio01</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/d0be3f2a4d1af8f07d98bebd07d7bd15/2f1b1/MODULO_DISTRIBUTIVA_FURIUS_BACO_PAP-MED_ATR_FB_ONR_0615_011.jpg" style="border-radius:6px"></p><p>Descobreix la increïble catapulta horitzontal de PortAventura: et llançarà a 135 km/h en tan sols 3 segons.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 11 Jan 2022 10:53:00 +0100</pubDate>
+            <category >Mediterrània/Forta</category>
+        </item>
+        
+        <item>
+            <title><![CDATA[<h2>TUTUKI SPLASH</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/atraccions/tutuki-splash</link>
+            <guid isPermaLink="false">atraccio02</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/f5c296ca868534aab471d37604c19f54/f0719/PAP-POL_ATR_TUT_ONR_0615_011.jpg" style="border-radius:6px"></p><p>Sent al cos la fúria del volcà i escapa’n d’una manera ben refrescant. Molt aviat podràs gaudir d’aquesta atracció.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 11 Jan 2022 10:53:00 +0100</pubDate>
+            <category >Polinesia/Moderada</category>
+        </item>
+
+        <item>
+            <title><![CDATA[<h2>DRAGON KHAN</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/atraccions/dragon-khan</link>
+            <guid isPermaLink="false">atraccio03</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/853eb969f2209db642e7667cf8db9522/f0719/PAP-CH_ATR_DK_EXT_0615_012.jpg" style="border-radius:6px"></p><p>Un emblema entre les muntanyes russes: els 8 loopings de Dragon Khan i una velocitat de 110 km/h són una temptació tan bon punt veus l’atracció.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 11 Jan 2022 10:53:00 +0100</pubDate>
+            <category >China/Forta</category>
+        </item>  
+        
+        <item>
+            <title><![CDATA[<h2>CRAZY BARRELS</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/atraccions/crazy-barrels</link>
+            <guid isPermaLink="false">atraccio04</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/b3e7cf7d7679f6c1b4f3b3517bf69f70/2f1b1/EXPLORA_OTRAS_ATRACCIONES_CRAZY_BARRELS_PA21909z_LR.jpg" style="border-radius:6px"></p><p>Diversió amb un munt de sorpreses a l’atracció Crazy Barrels! Aquests esbojarrats barrils et faran girar sense parar mentre vius la seva acceleració.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 11 Jan 2022 10:53:00 +0100</pubDate>
+            <category >Far West/Moderada</category>
+        </item>                                     
+        
+    </channel>
+	
+</rss>

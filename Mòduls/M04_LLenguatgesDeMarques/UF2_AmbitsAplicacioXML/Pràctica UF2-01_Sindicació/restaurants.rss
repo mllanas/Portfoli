@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  version="2.0"> 
+    
+    <channel>  
+        
+        <title>Restaurants</title>
+        <link>https://www.portaventuraworld.com/ca/restaurants</link> 
+        <description>Informació sobre els millors restaurants del parc.</description> 
+        <category>restaurants</category>    
+        <pubDate>Wed, 19 Jan 2022 17:23:00 +0100</pubDate>
+        
+        <skipHours>
+            <hour>11</hour>
+            <hour>12</hour>
+            <hour>13</hour>
+            <hour>14</hour>
+            <hour>15</hour>
+            <hour>16</hour>
+            <hour>17</hour>
+            <hour>18</hour>
+            <hour>19</hour>
+            <hour>20</hour>
+            <hour>21</hour>  
+            <hour>22</hour> 
+            <hour>23</hour> 
+            <hour>00</hour> 
+            <hour>01</hour>                                                
+        </skipHours>
+        
+        <language>ca</language>
+        
+        <webMaster>webmaster@portaventuraworld.com</webMaster>
+        
+        <item>
+            <title><![CDATA[<h2">VINOSFERA TAPES I VINS</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/restaurants/vinosfera-tapes-i-vins</link>
+            <guid isPermaLink="false">restaurant01</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/16fb214cae61f7b402ea8a3071c3cedc/f0719/PAP-MED_REST_VINO_SM_0615_011.jpg" style="border-radius:6px"></p><p>Restaurant especialitzat en tapes i barquetes mediterrànies. I amb una àmplia carta de vins.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Wed, 19 Jan 2022 17:23:00 +0100</pubDate>
+            <category >Mediterrània/Menú infantil/Servei de taula</category>
+        </item>
+        
+        <item>
+            <title><![CDATA[<h2>BORA BORA</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/restaurants/bora-bora</link>
+            <guid isPermaLink="false">restaurant02</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/586e53ed7790a9fee9eff5903434d6ba/f0719/PAP-POL_ESP_PAREO_GEN_0615_012.jpg" style="border-radius:6px"></p><p>Deixa’t dur pel teu costat salvatge i tasta exòtics plats de cuina internacional amb tocs tropicals (amanides, hamburgueses, pollastre, etc.).</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Wed, 19 Jan 2022 17:23:00 +0100</pubDate>
+            <category >Polynesia/Menú sense Gluten/Menú infantil/Menú vegà-Vegetarià/Self Service</category>
+        </item>  
+        
+        <item>
+            <title><![CDATA[<h2>CANTON</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/restaurants/canton</link>
+            <guid isPermaLink="false">restaurant03</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/e64383aa0f1f01a697f1d49d764ebfb1/f0719/Canton_0447.jpg" style="border-radius:6px"></p><p>Deixa’t seduir pels sabors de la tradicional gastronomia xinesa amb un wok show-cooking (fideus al teu gust, broquetes, rotlles de primavera, etc.) mentre admires les magnífiques vistes de la plaça central.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Wed, 19 Jan 2022 17:23:00 +0100</pubDate>
+            <category >China/Menjar ràpid</category>
+        </item>
+        
+        <item>
+            <title><![CDATA[<h2>LA CANTINA</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/restaurants/la-cantina</link>
+            <guid isPermaLink="false">restaurant04</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/18ff88cf8776db46fce9f8d0e753b1f4/f0719/PAP-MEX_REST_CANT_SS_0615_010.jpg" style="border-radius:6px"></p><p>Uneix-te a la festa que els mariachis han preparat per a tu al restaurant La Cantina, mentre assaboreixes uns deliciosos nachos amb guacamole, un bon plat de xili amb carn o la típica amanida mexicana. Gaudeix de l’espectacle!</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Wed, 19 Jan 2022 17:23:00 +0100</pubDate>
+            <category >México/Menú sense Gluten/Menú infantil/Autoservei</category>
+        </item>
+        
+    </channel>
+	
+</rss>

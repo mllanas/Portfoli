@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  version="2.0"> 
+    
+    <channel>  
+        
+        <title>Horari i calendari</title>
+        <link>https://www.portaventuraworld.com/ca/</link> 
+        <description>Informació sobre l’horari d’obertura i tancament del parcs i de totes les seves atraccions al llarg de l’any.</description>
+        <category>horaris/calendari</category>    
+        <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        
+        <skipDays>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        
+        <language>ca</language>
+        
+        <webMaster>webmaster@portaventuraworld.com</webMaster>
+        
+        <item>
+            <title><![CDATA[<h2>Horari i calendari</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/horaris-calendari</link>
+            <guid isPermaLink="false">horarisParc</guid>		
+            <description><![CDATA[<p><img src="http://localhost:8383/HTML5Application/imatges/timetable.png" width="120"></p><p>Aquí trobaràs tota la informació sobre l’horari d’obertura i tancament dels parcs i de totes les atraccions al llarg de l’any.</p><p style="color: #f24c3b"><b>AVÍS IMPORTANT:</b> Degut a la situació actual, les nostres instal·lacions romandran tancades fins el 8 d’abril.</p>]]></description>
+	    <author>blog@portaventuraworld.com</author>
+            <pubDate>Mon, 03 Jan 2022 09:00:00 +0100</pubDate>
+        </item>
+        
+    </channel>
+	
+</rss>

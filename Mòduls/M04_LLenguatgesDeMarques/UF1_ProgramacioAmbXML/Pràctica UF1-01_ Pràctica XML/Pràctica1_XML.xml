@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Defineixo com arrel l'element PARCATRACCIONS -->
+<parcAtraccions>
+<!--
+NOTA: 
+Com que l'element ZONA és recurrent a tots els elements físics que conformen el parc, crec que és més òptim enfocar-ho 
+com una METADATA a l'hora d'agilitzar les cerques de forma precisa i així simplificar l'arxiu XML.
+
+Organització del document:
+1. Info General: Dades 'personals' del parc + Dates d'interès + Horaris del parc
+2. Atraccions
+3. Espectacles
+4. Restaurants
+5. Botigues
+-->
+  <infoGeneral>
+    <!-- Especifico nom, adreça, ciutat, país, web i dates d'interés com elements perquè els valors que contenen són complexes
+    i/o m'encaixen millor dins aquest apartat que no pas com atributs (metadates) -->
+    <nom>CoperAventura S.A.</nom>
+    <adreça>Passeig de la Sort, 1</adreça>
+    <ciutat>Can Puces</ciutat>
+    <país>Espanya</país>
+    <web>http://coperaventura.com</web>
+    <datesInteres>
+      <oberturaParc>08/07/2021</oberturaParc>
+      <tancamentParc>10/01/2022</tancamentParc>
+    </datesInteres>
+    <!-- 
+    Separo els horaris per blocs (mesos) i diferencio 2 franges horaries: horaObertura i horaTancament,
+    amb els seus dies corresponents aniuats com ELEMENTS. 
+    -->
+    <horaris>
+      <!-- 
+      Atributs bloc MESOS:
+      Defineixo NOM com atribut identificador únic de l'element MES
+      Defineixo HORA com atribut identificador únic de l'element HORAOBERTURA
+      Defineixo HORA com atribut identificador únic de l'element HORATANCAMENT
+      -->
+      <mes nom="Juliol">
+        <horaObertura hora="10:00">
+          <periode dataInici="1" dataFinal="31"><!-- Com hi ha intèrvals de dates que corresponen a un horari concret, declaro com dos atributs aquest interval per classificar millor les excepcions d'horar -->
+            <!-- Com que l'horari laboral del parc no afecta homogèniament a tots els dies per igual, definir-los com elements dóna  més escalabilitat a les dades -->
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaObertura>    
+        <horaTancament hora="22:00">
+          <periode dataInici="1" dataFinal="31">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>
+      </mes>  
+      <mes nom="Agost">
+        <horaObertura hora="10:00">
+          <periode dataInici="1" dataFinal="31">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaObertura>
+        <horaTancament hora="22:00">
+          <periode dataInici="1" dataFinal="31">
+              <diaSetmana>Dilluns</diaSetmana>
+              <diaSetmana>Dimarts</diaSetmana>
+              <diaSetmana>Dimecres</diaSetmana>
+              <diaSetmana>Dijous</diaSetmana>
+              <diaSetmana>Divendres</diaSetmana>
+              <diaSetmana>Dissabte</diaSetmana>
+              <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>
+      </mes>    
+      <mes nom="Setembre">
+        <horaObertura hora="10:00">
+          <periode dataInici="1" dataFinal="30">
+              <diaSetmana>Dilluns</diaSetmana>
+              <diaSetmana>Dimarts</diaSetmana>
+              <diaSetmana>Dimecres</diaSetmana>
+              <diaSetmana>Dijous</diaSetmana>
+              <diaSetmana>Divendres</diaSetmana>
+              <diaSetmana>Dissabte</diaSetmana>
+              <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaObertura>
+        <horaTancament hora="20:00">
+          <periode dataInici="14" dataFinal="30">
+              <diaSetmana>Dilluns</diaSetmana>
+              <diaSetmana>Dimarts</diaSetmana>
+              <diaSetmana>Dimecres</diaSetmana>
+              <diaSetmana>Dijous</diaSetmana>
+              <diaSetmana>Divendres</diaSetmana>
+              <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>
+        <horaTancament hora="22:00">
+          <periode dataInici="1" dataFinal="13">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+          <periode dataInici="14" dataFinal="30">
+            <diaSetmana>Dissabte</diaSetmana>
+          </periode>
+        </horaTancament>
+      </mes>  
+      <mes nom="Octubre">
+      <horaObertura hora="10:00">
+          <periode dataInici="1" dataFinal="30">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaObertura>    
+        <horaTancament hora="20:00">
+          <periode dataInici="1" dataFinal="10">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+          <periode dataInici="12" dataFinal="31">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>
+        <horaTancament hora="22:00">
+          <periode dataInici="1" dataFinal="31">
+            <diaSetmana>Dissabte</diaSetmana>
+          </periode>
+          <periode dataInici="11" dataFinal="11">
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>  
+      </mes>
+      <mes nom="Novembre">
+        <horaObertura hora="10:00">
+          <periode dataInici="1" dataFinal="30">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaObertura>    
+        <horaTancament hora="18:00">
+          <periode dataInici="1" dataFinal="6">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+          <periode dataInici="8" dataFinal="13">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+          <periode dataInici="15" dataFinal="30">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>
+        <horaTancament hora="22:00">
+          <periode dataInici="7" dataFinal="7">
+            <diaSetmana>Dissabte</diaSetmana>
+          </periode>
+          <periode dataInici="14" dataFinal="14">
+            <diaSetmana>Dissabte</diaSetmana>
+          </periode>
+        </horaTancament>  
+      </mes>  
+      <mes nom="Desembre">
+        <horaObertura hora="10:00">
+          <periode dataInici="7" dataFinal="7">
+            <diaSetmana>Dilluns</diaSetmana>
+          </periode>
+          <periode dataInici="8" dataFinal="8">
+            <diaSetmana>Dimarts</diaSetmana>
+          </periode>
+          <periode dataInici="21" dataFinal="25">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+          <periode dataInici="28" dataFinal="31">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaObertura>    
+        <horaTancament hora="18:00">
+          <periode dataInici="7" dataFinal="7">
+            <diaSetmana>Dilluns</diaSetmana>
+          </periode>
+          <periode dataInici="8" dataFinal="8">
+            <diaSetmana>Dimarts</diaSetmana>
+          </periode>
+          <periode dataInici="21" dataFinal="25">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+          <periode dataInici="28" dataFinal="31">
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>
+      </mes>
+      <mes nom="Gener">
+        <horaObertura hora="10:00">
+          <periode dataInici="1" dataFinal="10">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaObertura>    
+        <horaTancament hora="18:00">
+          <periode dataInici="1" dataFinal="10">
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </periode>
+        </horaTancament>
+      </mes>  
+    </horaris>
+  </infoGeneral>
+    <!-- ATRACCIONS -->
+  <atraccions>
+    <!-- Assigno com atributs ZONA i INTENSITAT perquè són dades que contenen totes les atraccions i en defineixen l'ubicació i tipologia -->
+    <atracció zona="ESO" intensitat="infantil">
+      <!-- NOM serviria com atribut a mode d'ID, però per seguir la pauta que m'he definit, derivo a atributs només dades amb un sol valor, a mode de metadata, i el nom el veig més com a contingut.-->
+      <nom>Pati Mission</nom>
+      <!-- Designo com a elements tots aquells valors que són opcionals -->
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <vídeo>Sí</vídeo>
+      <!-- Estableixo com un element l'alçada mínima de si cal anar acompanyat d'un adult perquè és una condició que no sempre es complirà, és opcional. I un atribut MAI pot ser NULL -->
+      <minAlçadaMenor>1,10 m</minAlçadaMenor>
+      <minAlçada>1,20 m</minAlçada>
+    </atracció>    
+    <atracció zona="ESO" intensitat="Infantil">
+      <nom>L’aula misteriosa</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+    </atracció>    
+    <atracció zona="ESO" intensitat="Infantil">
+      <nom>Magic entrepà</nom>
+      <minAlçadaMenor>1,30 m</minAlçadaMenor>
+      <minAlçada>1,40 m</minAlçada>
+    </atracció>    
+    <atracció zona="ESO" intensitat="Infantil">
+      <nom>Profe-Profe</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <minAlçadaMenor>1 m</minAlçadaMenor>
+      <minAlçada>1,30 m</minAlçada>
+    </atracció>
+    <atracció zona="ESO" intensitat="Infantil">
+      <nom>El salt a la pissarra</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <minAlçadaMenor>0,95 m</minAlçadaMenor>
+      <minAlçada>1,30 m</minAlçada>
+    </atracció>    
+    <atracció zona="Batxillerat" intensitat="Forta">
+      <nom>Furius Selectivity</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <vídeo>Sí</vídeo>
+      <minAlçada>1,40 m</minAlçada>
+      <maxAlçada>1,95 m</maxAlçada>
+    </atracció>    
+    <atracció zona="Batxillerat" intensitat="Moderada">
+      <nom>Examen Splash</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <minAlçadaMenor>1,30 m</minAlçadaMenor>
+      <minAlçada>1,40 m</minAlçada>
+    </atracció>    
+    <atracció zona="Batxillerat" intensitat="Moderada">
+      <nom>Juny Wave</nom>
+      <minAlçadaMenor>1,30 m</minAlçadaMenor>
+      <minAlçada>1,40 m</minAlçada>
+    </atracció>    
+    <atracció zona="Batxillerat" intensitat="Suau">
+      <nom>El tren de sortida</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+    </atracció>    
+    <atracció zona="GM" intensitat="Moderada">
+      <nom>Pràctiques River Flume</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <minAlçadaMenor>1,30 m</minAlçadaMenor>
+      <minAlçada>1,40 m</minAlçada>
+    </atracció>    
+    <atracció zona="GM" intensitat="Moderada">
+      <nom>Dies Festius Rapids</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <foto>Sí</foto>
+      <minAlçadaMenor>1,20 m</minAlçadaMenor>
+      <minAlçada>1,30 m</minAlçada>
+    </atracció>
+    <atracció zona="GM" intensitat="Moderada">
+      <nom>Crazy Crèdit Síntesi</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <minAlçadaMenor>1,20 m</minAlçadaMenor>
+      <minAlçada>1,30 m</minAlçada>
+    </atracció>
+    <atracció zona="GM" intensitat="Suau">
+      <nom>Les canoes del traspàs</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+    </atracció>
+    <atracció zona="GS" intensitat="Forta">
+      <nom>Dual Khan</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <vídeo>Sí</vídeo>
+      <minAlçada>1,40 m</minAlçada>
+      <maxAlçada>1,95 m</maxAlçada>
+    </atracció>
+    <atracció zona="GS" intensitat="Forta">
+      <nom>Dhambhala</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <vídeo>Sí</vídeo>
+      <minAlçada>1,40 m</minAlçada>
+    </atracció>    
+    <atracció zona="GS" intensitat="Moderada">
+      <nom>Projecte Climbing</nom>
+      <minAlçadaMenor>1,20 m</minAlçadaMenor>
+      <minAlçada>1,30 m</minAlçada>
+      <maxAlçada>1,50 m</maxAlçada>
+    </atracció>
+    <atracció zona="GS" intensitat="Suau">
+      <nom>Coperkor</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <minAlçadaMenor>1,20 m</minAlçadaMenor>
+      <minAlçada>1,30 m</minAlçada>
+    </atracció>  
+    <atracció zona="Profes" intensitat="Moderada">
+      <nom>El temple de les notes</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <minAlçadaMenor>1 m</minAlçadaMenor>
+      <minAlçada>1,40 m</minAlçada>
+    </atracció>
+    <atracció zona="Profes" intensitat="Suau">
+      <nom>El secret dels alumnes</nom>
+    </atracció>    
+    <atracció zona="Profes" intensitat="Forta">
+      <nom>Hurakan Truancy</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <foto>Sí</foto>
+      <minAlçada>1,40 m</minAlçada>
+      <maxAlçada>1,95 m</maxAlçada>
+    </atracció>
+  </atraccions>
+    <!-- ESPECTACLES -->
+  <espectacles>
+    <!-- Com amb les atraccions, assigno com atributs ZONA i TIPUS perquè són dades que contenen tots els espectacles i en defineixen la tipologia -->
+    <espectacle zona="ESO" tipus="Aventura">  
+      <nom>Aloha alumnes</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <sessions>
+        <!-- Com que Horari conté fills (hores i dies), ho tracto com un element. El renombro com a SESSIÓ i indico la franja horària mitjançant un atribut.
+        Els dies corresponents a cada sessió els indico com etiquetes, perque poden no ser sempre  els mateixos per cada sessió -->
+        <sessió>
+          <comença>11:30 h</comença><!-- L'hora d'inici/finalització les designo com ELEMENTS perquè no sempre se n'indica l'hora de finalització, i a la pràctica s'especifica que els atributs han de manetnir
+          la mateixa estructura dins de cada element i no poden estar buits -->
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>14:00 h</comença>
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>16:00 h</comença>
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>17:00 h</comença>
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+      </sessions>
+    </espectacle>
+    <espectacle zona="ESO" tipus="Didàctic">
+      <nom>Em sento al paradís</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <sessions>
+        <sessió>
+          <comença>13:00 h</comença>
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+        </sessió>
+          <sessió>
+            <comença>15:00 h</comença>
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+        </sessió>
+         <sessió>
+          <comença>12:00 h</comença>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>13:30 h</comença>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>15:30 h</comença>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+      </sessions>
+    </espectacle>
+    <espectacle zona="GM" tipus="Passatge del terror"><!-- Se que m'he limitat a definir com atributs només a dades amb un sol valor, però en aquest cas tot i ser una dada composta,
+      la defineixo com atribut perquè és una categoria que defineix l'element i la comparteixen TOTS els espectacles -->
+      <nom>CCC©Experience</nom>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <sessions>
+        <sessió>
+          <comença>11:30 h</comença>
+          <acaba>13:30 h</acaba>
+          <diaSetmana>Dissabte</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>15:00 h</comença>
+          <acaba>18:30 h</acaba>
+          <diaSetmana>Dissabte</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>11:00 h</comença>
+          <acaba>13:00 h</acaba>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>14:30 h</comença>
+          <acaba>17:30 h</acaba>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+      </sessions>
+    </espectacle>
+    <espectacle zona="GM" tipus="Musical">
+      <nom>Around the Coper</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+        <passi>Seient VIP</passi>
+      </passis>
+      <accesDiscapacitats>Sí</accesDiscapacitats>
+      <sessions>
+        <sessió>
+          <comença>14:00 h</comença>
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>16:00 h</comença>
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>18:00 h</comença>
+          <diaSetmana>Dissabte</diaSetmana>
+        </sessió>
+      </sessions>
+    </espectacle>    
+    <espectacle zona="Profes" tipus="Desfilada">
+      <nom>CoperParade</nom>
+      <sessions>
+        <sessió>
+          <comença>20:00 h</comença>
+          <acaba>22:00 h</acaba>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+      </sessions>
+    </espectacle>    
+    <espectacle zona="Profes" tipus="Passatge del terror">
+      <nom>Apocalipsis COVID</nom>
+      <passis>
+        <passi>PassPreferent</passi>
+      </passis>
+      <sessions>
+        <sessió>
+          <comença>12:30 h</comença>
+          <acaba>14:30 h</acaba>
+          <diaSetmana>Dissabte</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>16:00 h</comença>
+          <acaba>18:30 h</acaba>
+          <diaSetmana>Dissabte</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>11:30 h</comença>
+          <acaba>13:30 h</acaba>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+        <sessió>
+          <comença>15:00 h</comença>
+          <acaba>17:00 h</acaba>
+          <diaSetmana>Diumenge</diaSetmana>
+        </sessió>
+      </sessions>
+    </espectacle>
+  </espectacles>
+    <!-- RESTAURANTS -->
+  <restaurants>
+    <!-- Seguint l'estructura aplicada anteriorment a ATRACCIONS, i ESPECTACLES; assigno com atribut ZONA
+    perquè és una dada que contenen tots els restaurants i serveix per ubicar-los -->
+    <restaurant zona="ESO">
+      <nom>La cuina de l'ESO</nom>
+      <!-- no poden figurar comes o varis valors dins un atribut, per això  defineixo SERVEI com un element.
+            Defineixo una etiqueta mare en plural perquè contindrà elements del mateix tipus en singular.
+            Això també permet una millor escalabilitat de cara al futur si cal afegir/treure serveis de menjador
+      -->
+      <serveis>
+        <servei>Taula</servei>
+        <servei>Autoservei</servei>
+      </serveis>
+      <!-- Com que pot haver-hi o no diversos tipus de menú, i per coherència amb l'estructura anterior SERVEIS, 
+           també ho enfoco com elements i ho englobo dins d'un element plural MENUSESPECIALS 
+      -->
+      <menusEspecials> 
+        <menuEspecial>Infantil</menuEspecial>
+      </menusEspecials>
+    </restaurant>    
+    <restaurant zona="Batxillerat">
+      <nom>Aiguaesfera Classes i Aigua"</nom>
+      <serveis>
+        <servei>Taula</servei>
+      </serveis>
+      <menusEspecials> 
+        <menuEspecial>Infantil</menuEspecial>
+      </menusEspecials>
+    </restaurant>    
+    <restaurant zona="Batxillerat">
+      <nom>Café de primera hora</nom>
+      <serveis>
+        <servei>Autoservei</servei>
+      </serveis>
+    </restaurant>
+    <restaurant zona="GS">
+      <nom>The Iron student</nom>
+      <serveis>
+        <servei>Taula</servei>
+      </serveis>
+      <menusEspecials> 
+        <menuEspecial>Celíac</menuEspecial>
+        <menuEspecial>Infantil</menuEspecial>
+      </menusEspecials>
+    </restaurant>    
+    <restaurant zona="GS">
+      <nom>The new snack house</nom>
+      <serveis>
+        <servei>Autoservei</servei>
+      </serveis>
+      <menusEspecials> 
+        <menuEspecial>Celíac</menuEspecial>
+      </menusEspecials>
+    </restaurant>    
+    <restaurant zona="Profes">
+      <nom>Cantina del Coper</nom>
+      <serveis>
+        <servei>Taula</servei>
+      </serveis>
+      <menusEspecials> 
+        <menuEspecial>Celíac</menuEspecial>
+        <menuEspecial>Infantil</menuEspecial>
+      </menusEspecials>
+    </restaurant>    
+    <restaurant zona="Profes">
+      <nom>Un entrepà express</nom>
+      <serveis>
+        <servei>Autoservei</servei>
+      </serveis>
+      <menusEspecials> 
+        <menuEspecial>Celíac</menuEspecial>
+      </menusEspecials>
+    </restaurant>
+  </restaurants>
+  <!-- BOTIGUES -->
+  <botigues>
+    <!-- Seguint l'estructura aplicada anteriorment a ATRACCIONS, ESPECTACLES i RESTAURANTS; assigno com atribut ZONA
+            perquè és una dada que contenen totes les botigues i serveix per ubicar-les -->
+    <botiga zona="ESO">
+      <nom>ESOTenda</nom>
+      <!-- Com que pot haver-hi o no diversos tipus de productes i serveis, i per coherència amb les estructures anteriors, 
+              també ho enfoco com elements i ho englobo dins d'un element plural PRODUCTES i un altre com a SERVEIS
+      -->
+      <productes>
+        <producte>Souvenirs</producte>
+      </productes>
+      <serveis> 
+        <servei>Servei de recollida</servei>
+      </serveis>
+    </botiga>    
+    <botiga zona="ESO">
+      <nom>Fotos Profe-Profe</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="ESO">
+      <nom>Fotos Pati Mission</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="Batxillerat">
+      <nom>Fotos Furius Selectivity</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="Batxillerat">
+      <nom>Records CoperAvetura</nom>
+      <productes>
+        <producte>Souvenirs</producte>
+      </productes>
+      <serveis> 
+        <servei>Servei de recollida</servei>
+      </serveis>
+    </botiga>    
+    <botiga zona="Batxillerat">
+      <nom>Dolços del mes</nom>
+      <productes>
+        <producte>Llaminadures</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="GM">
+      <nom>Fotos Pràctiques River Flume</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="GM">
+      <nom>Fotos Dies Festius Rapids</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="GM">
+      <nom>GM Store</nom>
+      <productes>
+        <producte>Souvenirs</producte>
+      </productes>
+      <serveis> 
+        <servei>Servei de recollida</servei>
+      </serveis>
+    </botiga>    
+    <botiga zona="GM">
+      <nom>Fotos Dies Festius Rapids</nom>
+      <productes>
+        <producte>Souvenirs</producte>
+        <producte>Llaminadures</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="GS">
+      <nom>Fotos Dual Khan</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="GS">
+      <nom>Fotos Dhambhala</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="GS">
+      <nom>GS Palace</nom>
+      <productes>
+        <producte>Souvenirs</producte>
+      </productes>
+      <serveis> 
+        <servei>Servei de recollida</servei>
+      </serveis>
+    </botiga>    
+    <botiga zona="Profes">
+      <nom>Hurakan Truancy</nom>
+      <productes>
+        <producte>Fotografies</producte>
+      </productes>
+    </botiga>    
+    <botiga zona="Profes">
+      <nom>Hurakan Truancy Shop</nom>
+      <productes>
+        <producte>Souvenirs</producte>
+      </productes>
+      <serveis> 
+        <servei>Servei de recollida</servei>
+      </serveis>
+    </botiga>
+  </botigues>
+</parcAtraccions>

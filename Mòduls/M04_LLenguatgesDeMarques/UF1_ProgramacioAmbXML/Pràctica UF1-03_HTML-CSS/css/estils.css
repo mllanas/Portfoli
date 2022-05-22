@@ -1,0 +1,125 @@
+
+/* 
+    Project    : Pràctica Html+Css
+    Author     : Txell Llanas
+*/
+
+* {margin: 0 auto; padding: 0;}
+
+/* Elements */
+article h1 {text-align: center; font-size: 1.5em;}
+body {font-family: 'Source Sans Pro', sans-serif; font-size: 20px;}
+p {text-align: justify; margin: 40px 0}
+strong {font-size: 1.1em;}
+header h1 {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+h2.tipo-subtitol{font-size: 1.75em; font-weight: 400; font-style: italic;}
+footer {background-image: linear-gradient(25deg, #ff5722, #2196f3); background-image: -webkit-gradient(25deg, #ff5722, #2196f3); background-image: -moz-linear-gradient(25deg, #ff5722, #2196f3); text-align: center; color:#fff; font-weight: 300;}
+footer #info {display: flex; padding: 60px 0px;}
+footer #copyright {background-color: #252525; padding: 15px 0px;}
+thead th span.txt-vermell {font-size: 0.7em; font-weight: 400;}
+tbody tr td li {display: list-item!important; list-style: disc; text-align: left;}
+th, td {width: 6em; padding:10px;}
+table {width: 100%; text-align: center;}
+
+/* Enllaços */
+a {font-weight: bold; color: inherit;}
+a:hover {color: #fffc4e; text-decoration: underline;}
+a:visited {font-style: italic; text-decoration: underline;}
+.bloc-fila a:visited {font-style: italic;}
+a.boto, a.boto-calendari {text-decoration: none!important;}
+a.boto-calendari:hover {background-color: #000;}
+.breadcrumb a {color:#fff;}
+footer a, footer a:visited {color:#fff; text-decoration: none;}
+footer a {font-weight:300;}
+footer a:hover {color: #fffc4e; text-decoration: underline;}
+nav a {font-weight: 600;}
+.nav-item a.boto {cursor: pointer; color: #fff; background-color: #777; width: 80px;}
+.nav-item a.boto:hover, .nav-item a.actiu, .boto-mes a:hover, .boto-mes a.actiu, .boto-zones a:hover, .boto-zones a.actiu {color: #fff!important; background-color: #252525!important;}
+.nav-item a.boto:visited {color:#777; background-color: #ddd;}
+
+/* Genèrics maquetació pròpis */
+.ample-definit {margin:40px auto; padding: 0 40px; max-width: 920px;}
+article .bloc-fila {padding: 1px 0px;}
+.autor-cita {display: inline-block; font-size: .85em; margin-top: 15px; font-weight: 200;}
+.barra {padding: 0 18px; display: none; background-color: white; overflow: hidden;}
+.bg-accent1 {background: #ff5722; color: white;}
+.bg-accent2 {background: #444; color: white;}
+.bg-accent2 strong {color: #eee;}
+.bg-accent3 {background: #ffeb3b; color: #795548;}
+.bg-accent3 {background: #226879; color: white;}
+.bloc-destacat {padding: 60px; text-align: center; color:#505050;}
+.bloc-destacat h1 {font-size: 5em; background-image: linear-gradient(115deg, #00b8ff, red, #8bc34a, #ff7600); background-clip: text; -webkit-text-fill-color: transparent; -webkit-background-clip: text; width: fit-content;}
+.bloc-calendari {margin: 0px auto; padding: 35px 0px 0px 0px; display: flex; align-items: center;}
+.bloc-calendari .boto-dreta {margin-right: 0;}
+.bloc-calendari .boto-esquerra {margin-left: 0;}
+.bloc-fila h1 {font-size: 2em;}
+.bloc-fila h2, .bloc-calendari h2 {font-weight: 300;}
+.bloc-fila ul li {margin: 0px 0px 0px 25px; display: flex; align-items: center;}
+.bloc-fila ul li span.icona {font-size: 2.5em;}
+.bloc-fila ul li span.texte {margin-left: 20px;}
+.bloc-fila {margin: 0px auto; padding: 70px 0px; align-items: center;}
+.breadcrumb {color: #fff; padding: 20px 80px; background-color: #444;}
+.capsa:first-of-type {background-color: #ddd; border-radius: 20px; margin: 0px 15px 40px 15px;}
+.capsa {background-color: #ddd; border-radius: 20px; margin: 40px 15px;}
+.capsa h1, .capsa p {padding: 30px;}
+.capsa button h3 {font-size: 1.5em; display: inline-block; margin-left: 10px; font-weight: 300;}
+.capsa p {margin: 0; padding-top: 0;}
+.capsa thead th.capsalera {background-color: #444; color:#fff;}
+.capsa tbody tr:nth-child(odd) {background-color: #f4f4f4;}
+.capsa tbody tr:nth-child(even) {background-color: #fdfdfd;}
+.capsa tbody tr td {font-size: 0.7em; padding: 10px;}
+.capsa-serveis {background-color: #fff; border-radius: 20px; margin: 15px; padding: 20px; text-align: center;}
+.dia {font-weight: bold; font-size: 1.3em; background-color: #fff; display: inherit; padding: 5px; margin: 10px auto; border-radius: 3px; width: 30px;}
+.descripcio-zones-home ul li {margin: 10px auto!important;}
+.desplegable {background-color: #fff; cursor: pointer; width: 100%; border: none; font-size: 1em; transition: 0.4s; display: flex; padding: 20px; align-items: center;}
+.desplegable span {font-size: 2em;}
+.destacat {font-size: 1.25em; color: #757575; background-color: #e2e2e2; padding: 20px; border-radius: 10px; margin: 30px auto; text-align: center;}
+.destacat:nth-child{background-color:#f3f3f3;}
+.dos-de-tres {width: 66%;}
+.festiu {color: red;}
+.flex {display: flex; align-items: center;}
+.llista-serveis li {margin: 10px auto!important; display: block!important; font-size: .85em;}
+.obert {background-color: yellowgreen;}
+.page-wrapper {max-width: 1000px; margin:auto;}
+#presentacio h1, #presentacio h2 {text-align: center;}
+.slogan  {text-align: center; margin: 60px auto;}
+.tancat {background-color: red;}
+.tipo-titular {font-family: 'Shadows Into Light Two', cursive;}
+.tipo-subtitol {font-family: 'Source Sans Pro', sans-serif;}
+.titol-servei {margin-left: 0;}
+.titol-servei span {font-size: 2em;;}
+.txt-vermell {color:red;}
+.txt-centrat {text-align: center;}
+.un-de-tres, .dos-de-tres {margin: 10px;}
+.un-de-tres {width: 33%;}
+
+/* Imatges */
+.banner-portada { height: 600px; background-image: url(../img/img01.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.banner-zona-eso{height: 300px; background-image: url(../img/banner-eso.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 20px 20px 0 0;}
+.banner-zona-batx{height: 300px; background-image: url(../img/banner-batx.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 20px 20px 0 0;}
+.banner-zona-gm{height: 300px; background-image: url(../img/banner-gm.jpeg); background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 20px 20px 0 0;}
+.banner-zona-gs{height: 300px; background-image: url(../img/banner-gs.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 20px 20px 0 0;}
+.banner-zona-profes{height: 300px; background-image: url(../img/banner-profes2.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 20px 20px 0 0;}
+
+/* Botons */
+.boto {display: inline-block; text-transform: uppercase; padding: 0 1.5rem; border-radius: .25rem; line-height: 2.5em;}
+.boto-calendari {background: red; padding: 10px; border-radius: 50%; width: 30px; display: block; text-align: center; line-height: 30px; color: #fff; font-size: 2em; font-family: monospace;}
+.boto-mes a, .boto-zones a {background-color: #ddd; display: block; border-radius: 10px; padding: 10px; text-decoration: none; font-weight: 400;}
+#boto-amunt {display: none; position: fixed; bottom: 100px; right: 70px; z-index: 99; font-size: 30px; border: none; outline: none; background-color: red; color: white; cursor: pointer; padding: 10px 15px; border-radius: 4px;}
+#boto-amunt:hover {background-color: #555;}
+button.desplegable:hover {background-color: whitesmoke; border-radius: 8px;}
+button.desplegable:after {content: '\002B'; color: #777; font-weight: bold; float: right; margin-left: 5px; font-size: 2em; padding-right: 10px; width: 30px;}
+button.desplegat-actiu {margin-bottom: 15px;}
+button.desplegat-actiu:after {content: '\005f'; position: relative; top: -20px; font-weight: 500;}
+
+/*** HEADER SECTION ***/
+header {display: flex; min-height: 132px; background-image: linear-gradient(25deg, #2196f3, #ff5722); background-image: -webkit-gradient(25deg, #2196f3, #ff5722); background-image: -moz-linear-gradient(25deg, #2196f3, #ff5722);}
+#logo {margin:30px 0px 30px 80px; width: max-content; display: inline-block;}
+#nom-parc {color: #fff; width: 100%; margin: 30px 80px 30px 0px; text-align: right; align-self: center;}
+#nom-parc h1 {font-size: 2.5em;}
+
+/*** MENU ***/
+.nav-item span {display: block; font-size: 2em; padding-top: 15px;}
+nav {text-align: center; margin: 40px auto;}
+nav ul li {list-style: none; display: inline-block;}
+nav ul li:last-of-type {padding-left: 100px;}

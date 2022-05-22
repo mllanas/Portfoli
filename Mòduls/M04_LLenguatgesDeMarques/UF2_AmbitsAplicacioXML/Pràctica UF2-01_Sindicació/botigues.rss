@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  version="2.0"> 
+    
+    <channel>  
+        
+        <title>Botigues</title>
+        <link>https://www.portaventuraworld.com/ca/botigues</link> 
+        <description>Informació sobre les millors botigues del parc.</description>        
+        <category>botigues</category>    
+        <pubDate>Tue, 25 Jan 2022 12:30:00 +0100</pubDate>       
+        
+        <skipDays>
+            <day>Monday</day>
+            <day>Tuesday</day>
+            <day>Wednesday</day>
+            <day>Thursday</day>
+            <day>Friday</day>                    
+        </skipDays>
+
+        <language>ca</language>
+        
+        <webMaster>webmaster@portaventuraworld.com</webMaster>
+        
+        <item>
+            <title><![CDATA[<h2>DOLÇOS I MÉS</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/botigues/dolcos-mes</link>
+            <guid isPermaLink="false">botiga01</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/105900152eaa8a16c5c0f35ac366869a/b4c6a/16_Dol%C3%A7os_i_M%C3%A9s_4.jpg" style="border-radius:6px"></p><p>Endolceix la teva estada amb les teves llaminadures predilectes: totes les que vols i més, les trobaràs a Dolços i més.</p><p>Molt aviat podràs comprar en aquesta botiga.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 25 Jan 2022 12:30:00 +0100</pubDate>
+            <category >Mediterrània/Llaminadures</category>
+        </item>
+        
+        <item>
+            <title><![CDATA[<h2>FOTOGRAFIA TUTUKI SPLASH</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/botigues/fotografia-tutuki-splash</link>
+            <guid isPermaLink="false">botiga02</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/f5c296ca868534aab471d37604c19f54/b4c6a/PAP-POL_ATR_TUT_ONR_0615_011.jpg" style="border-radius:6px"></p><p>No oblidis mai les emocions que has viscut a les teves atraccions predilectes i immortalitza-les amb una imatge. Emporta’t a casa el record ideal i no oblidis mai l’experiència viscuda.</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 25 Jan 2022 12:30:00 +0100</pubDate>
+            <category >Polynesia/Fotografia</category>
+        </item>        
+        
+        <item>
+            <title><![CDATA[<h2>TIMBU – PHOTORIDE</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/botigues/timbu-photoride</link>
+            <guid isPermaLink="false">botiga03</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/af35103cacfa90dde7137aaf050bc767/b4c6a/PAP-CH_ATR_SH_ONR_0615_010.jpg" style="border-radius:6px"></p><p>Després de viure una de les experiències més grans de la teva vida, de segur que voldràs recordar tot el que has viscut a Shambhala. Se t’acudeix res millor que una fotografia per immortalitzar la gran experiència de la teva vida?</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 25 Jan 2022 12:30:00 +0100</pubDate>
+            <category >China/Fotografia/Vídeo</category>
+        </item>         
+ 
+        <item>
+            <title><![CDATA[<h2>CHIKITIENDA</h2>]]></title>			
+            <link>https://www.portaventuraworld.com/ca/botigues/chikitienda</link>
+            <guid isPermaLink="false">botiga04</guid>			
+            <description><![CDATA[<p><img src="https://www.portaventuraworld.com/static/a13cacbc8217d7b61ecc474378891f6a/b4c6a/PAP-SA_TIEN_CHIK_GEN_0615_010.jpg" style="border-radius:6px"></p><p>Entra a la nostra ChikiTienda. Hi ha regals, records, dolços i molts altres articles dels divertits personatges de Barri Sèsam. Et veus amb cor de triar-ne un i prou?</p>]]></description>	    
+            <author>blog@portaventuraworld.com</author>
+            <pubDate>Tue, 25 Jan 2022 12:30:00 +0100</pubDate>
+            <category >SésamoAventura/Souvenirs</category>
+        </item>    
+                          
+    </channel>
+	
+</rss>

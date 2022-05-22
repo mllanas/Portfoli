@@ -1,0 +1,651 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<parc nom="CoperAventura S.A." xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="parc.xsd">
+  <!---->
+  <adreca>Passeig de la sort, 1</adreca>
+  <ciutat>Can Puces</ciutat>
+  <pais>Espanya</pais>
+  <paginaWeb>http://www.coperaventura.com</paginaWeb>
+  <dates>
+    <dataObertura>2020-07-08</dataObertura>
+    <dataTancament>2020-01-10</dataTancament>
+  </dates>
+  <horaris>
+    <mes nom="Juliol">
+      <horaObertura hora="10:00:00">
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaObertura>
+      <horaTancament hora="22:00:00">
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaTancament>
+    </mes>
+    <mes nom="Agost">
+      <horaObertura hora="10:00:00">
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaObertura>
+      <horaTancament hora="22:00:00">
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaTancament>
+    </mes>
+    <mes nom="Setembre">
+      <horaObertura hora="10:00:00">
+        <periode diaInici="1" diaFinal="30">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaObertura>
+      <horaTancament hora="20:00:00">
+        <periode diaInici="14" diaFinal="30">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaTancament>
+      <horaTancament hora="22:00:00">
+        <periode diaInici="1" diaFinal="13">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+        <periode diaInici="14" diaFinal="30">
+          <diaSetmana>Dissabte</diaSetmana>
+        </periode>
+      </horaTancament>
+    </mes>
+    <mes nom="Octubre">
+      <horaObertura hora="10:00:00">
+        <periode diaInici="1" diaFinal="30">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaObertura>
+      <horaTancament hora="20:00:00">
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaTancament>
+      <horaTancament hora="22:00:00">
+        <periode diaInici="11" diaFinal="11">
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dissabte</diaSetmana>
+        </periode>
+      </horaTancament>
+    </mes>
+    <mes nom="Novembre">
+      <horaObertura hora="10:00:00">
+        <periode diaInici="1" diaFinal="30">
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaObertura>
+      <horaTancament hora="18:00:00">
+        <periode diaInici="1" diaFinal="30">
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaTancament>
+      <horaTancament hora="22:00:00">
+        <periode diaInici="7" diaFinal="7">
+          <diaSetmana>Dissabte</diaSetmana>
+        </periode>
+        <periode diaInici="14" diaFinal="14">
+          <diaSetmana>Dissabte</diaSetmana>
+        </periode>
+      </horaTancament>
+    </mes>
+    <mes nom="Desembre">
+      <horaObertura hora="10:00:00">
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+        <periode diaInici="7" diaFinal="8">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+        </periode>
+        <periode diaInici="21" diaFinal="25">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+        </periode>
+        <periode diaInici="28" diaFinal="30">
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+        </periode>
+      </horaObertura>
+      <horaTancament hora="18:00:00">
+        <periode diaInici="1" diaFinal="31">
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+        <periode diaInici="7" diaFinal="8">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+        </periode>
+        <periode diaInici="21" diaFinal="25">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+        </periode>
+        <periode diaInici="28" diaFinal="30">
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+        </periode>
+      </horaTancament>
+    </mes>
+    <mes nom="Gener">
+      <horaObertura hora="10:00:00">
+        <periode diaInici="1" diaFinal="10">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaObertura>
+      <horaTancament hora="18:00:00">
+        <periode diaInici="1" diaFinal="10">
+          <diaSetmana>Dilluns</diaSetmana>
+          <diaSetmana>Dimarts</diaSetmana>
+          <diaSetmana>Dimecres</diaSetmana>
+          <diaSetmana>Dijous</diaSetmana>
+          <diaSetmana>Divendres</diaSetmana>
+          <diaSetmana>Dissabte</diaSetmana>
+          <diaSetmana>Diumenge</diaSetmana>
+        </periode>
+      </horaTancament>
+    </mes>
+  </horaris>
+  <atraccions>
+    <zona nom="ESO">
+      <atraccio nom="Pati Mission">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <servei>Vídeo</servei>
+        <alcadaMinima adult="1">1.10</alcadaMinima>
+        <alcadaMinima adult="0">1.20</alcadaMinima>
+        <intensitat>Infantil</intensitat>
+      </atraccio>
+      <atraccio nom="L’aula misteriosa">
+        <servei>Accés discapacitat</servei>
+        <intensitat>Infantil</intensitat>
+      </atraccio>
+      <atraccio nom="Magic entrepà">
+        <alcadaMinima adult="1">1.30</alcadaMinima>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <intensitat>Infantil</intensitat>
+      </atraccio>
+      <atraccio nom="Profe-Profe">
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <alcadaMinima adult="1">1</alcadaMinima>
+        <alcadaMinima adult="0">1.30</alcadaMinima>
+        <intensitat>Infantil</intensitat>
+      </atraccio>
+      <atraccio nom="El salt a la pissarra">
+        <servei>Accés discapacitat</servei>
+        <alcadaMinima adult="1">0.95</alcadaMinima>
+        <alcadaMinima adult="0">1.30</alcadaMinima>
+        <intensitat>Infantil</intensitat>
+      </atraccio>
+    </zona>
+    <zona nom="Batxillerat">
+      <atraccio nom="Furius Selectivity">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <servei>Vídeo</servei>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <alcadaMaxima>1.95</alcadaMaxima>
+        <intensitat>Forta</intensitat>
+      </atraccio>
+      <atraccio nom="Examen Splash">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <alcadaMinima adult="1">1.30</alcadaMinima>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <intensitat>Moderada</intensitat>
+      </atraccio>
+      <atraccio nom="Juny Wave">
+        <alcadaMinima adult="1">1.30</alcadaMinima>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <intensitat>Moderada</intensitat>
+      </atraccio>
+      <atraccio nom="El tren de sortida">
+        <servei>Accés discapacitat</servei>
+        <intensitat>Suau</intensitat>
+      </atraccio>
+    </zona>
+    <zona nom="GM">
+      <atraccio nom="Pràctiques River Flume">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <alcadaMinima adult="1">1.30</alcadaMinima>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <intensitat>Moderada</intensitat>
+      </atraccio>
+      <atraccio nom="Dies Festius Rapids">
+        <servei>PassPreferent</servei>
+        <servei>Fotografia</servei>
+        <alcadaMinima adult="1">1.20</alcadaMinima>
+        <alcadaMinima adult="0">1.30</alcadaMinima>
+        <intensitat>Moderada</intensitat>
+      </atraccio>
+      <atraccio nom="Crazy Crèdit Síntesi">
+        <servei>Accés discapacitat</servei>
+        <alcadaMinima adult="1">1.20</alcadaMinima>
+        <alcadaMinima adult="0">1.30</alcadaMinima>
+        <intensitat>Moderada</intensitat>
+      </atraccio>
+      <atraccio nom="Les canoes del traspas">
+        <servei>Accés discapacitat</servei>
+        <intensitat>Suau</intensitat>
+      </atraccio>
+    </zona>
+    <zona nom="GS">
+      <atraccio nom="Dual Khan">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <servei>Vídeo</servei>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <alcadaMaxima>1.95</alcadaMaxima>
+        <intensitat>Forta</intensitat>
+      </atraccio>
+      <atraccio nom="Dhambhala">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <servei>Vídeo</servei>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <intensitat>Forta</intensitat>
+      </atraccio>
+      <atraccio nom="Projecte Climbing">
+        <alcadaMinima adult="1">1.20</alcadaMinima>
+        <alcadaMinima adult="0">1.30</alcadaMinima>
+        <alcadaMaxima>1.50</alcadaMaxima>
+        <intensitat>Moderada</intensitat>
+      </atraccio>
+      <atraccio nom="Coperkor">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <alcadaMinima adult="1">1.20</alcadaMinima>
+        <alcadaMinima adult="0">1.30</alcadaMinima>
+        <intensitat>Suau</intensitat>
+      </atraccio>
+    </zona>
+    <zona nom="Profes">
+      <atraccio nom="El temple de les notes">
+        <servei>PassPreferent</servei>
+        <servei>Accés discapacitat</servei>
+        <alcadaMinima adult="1">1</alcadaMinima>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <intensitat>Moderada</intensitat>
+      </atraccio>
+      <atraccio nom="El secret dels alumnes">
+        <intensitat>Suau</intensitat>
+      </atraccio>
+      <atraccio nom="Hurakan Truancy">
+        <servei>Accés discapacitat</servei>
+        <servei>Fotografia</servei>
+        <alcadaMinima adult="0">1.40</alcadaMinima>
+        <alcadaMaxima>1.95</alcadaMaxima>
+        <intensitat>Forta</intensitat>
+      </atraccio>
+    </zona>
+  </atraccions>
+  <espectacles>
+    <zona nom="ESO">
+      <espectacle nom="Aloha alumnes">
+        <servei>Accés discapacitat</servei>
+        <horari>
+          <passi>
+            <horaInici>11:30:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>14:00:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>16:00:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>17:00:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+        </horari>
+        <tipus>Aventura</tipus>
+      </espectacle>
+      <espectacle nom="Em sento al paradís">
+        <servei>Accés discapacitat</servei>
+        <horari>
+          <passi>
+            <horaInici>13:00:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>15:00:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimarts</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>12:00:00</horaInici>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>13:30:00</horaInici>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>15:30:00</horaInici>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+        </horari>
+        <tipus>Didàctic</tipus>
+      </espectacle>
+    </zona>
+    <zona nom="GM">
+      <espectacle nom="CCC©Experience">
+        <servei>Accés discapacitat</servei>
+        <horari>
+          <passi>
+            <horaInici>11:30:00</horaInici>
+            <horaFinal>13:30:00</horaFinal>
+            <diaSetmana>Dissabte</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>15:00:00</horaInici>
+            <horaFinal>18:30:00</horaFinal>
+            <diaSetmana>Dissabte</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>11:00:00</horaInici>
+            <horaFinal>13:00:00</horaFinal>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>14:30:00</horaInici>
+            <horaFinal>17:30:00</horaFinal>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+        </horari>
+        <tipus>Passatge del terror</tipus>
+      </espectacle>
+    </zona>
+    <zona nom="GS">
+      <espectacle nom="Around the Coper">
+        <servei>PassPreferent</servei>
+        <servei>Seient VIP</servei>
+        <servei>Accés discapacitat</servei>
+        <horari>
+          <passi>
+            <horaInici>14:00:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>16:00:00</horaInici>
+            <diaSetmana>Dilluns</diaSetmana>
+            <diaSetmana>Dimecres</diaSetmana>
+            <diaSetmana>Dijous</diaSetmana>
+            <diaSetmana>Divendres</diaSetmana>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>18:00:00</horaInici>
+            <diaSetmana>Dissabte</diaSetmana>
+          </passi>
+        </horari>
+        <tipus>Musical</tipus>
+      </espectacle>
+    </zona>
+    <zona nom="Profes">
+      <espectacle nom="CoperParade">
+        <horari>
+          <passi>
+            <horaInici>20:00:00</horaInici>
+            <horaFinal>22:00:00</horaFinal>
+            <diaSetmana>Dissabte</diaSetmana>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+        </horari>
+        <tipus>Desfilada</tipus>
+      </espectacle>
+      <espectacle nom="Apocalipsis COVID">
+        <horari>
+          <passi>
+            <horaInici>12:30:00</horaInici>
+            <horaFinal>14:30:00</horaFinal>
+            <diaSetmana>Dissabte</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>16:00:00</horaInici>
+            <horaFinal>18:30:00</horaFinal>
+            <diaSetmana>Dissabte</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>11:30:00</horaInici>
+            <horaFinal>13:30:00</horaFinal>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+          <passi>
+            <horaInici>15:00:00</horaInici>
+            <horaFinal>17:00:00</horaFinal>
+            <diaSetmana>Diumenge</diaSetmana>
+          </passi>
+        </horari>
+        <tipus>Passatge del terror</tipus>
+      </espectacle>
+    </zona>
+  </espectacles>
+  <restaurants>
+    <zona nom="ESO">
+      <restaurant nom="La cuina de l’ESO">
+        <servei>Taula</servei>
+        <servei>Autoservei</servei>
+        <menuEspecial>Infantil</menuEspecial>
+      </restaurant>
+    </zona>
+    <zona nom="Batxillerat">
+      <restaurant nom="Aiguaesfera Classes i Aigua">
+        <servei>Taula</servei>
+        <menuEspecial>Infantil</menuEspecial>
+      </restaurant>
+      <restaurant nom="Café de primera hora">
+        <servei>Autoservei</servei>
+      </restaurant>
+    </zona>
+    <zona nom="GS">
+      <restaurant nom="The Iron student">
+        <servei>Taula</servei>
+        <menuEspecial>Celíac</menuEspecial>
+        <menuEspecial>Infantil</menuEspecial>
+      </restaurant>
+      <restaurant nom="The new snack house">
+        <servei>Autoservei</servei>
+        <menuEspecial>Celíac</menuEspecial>
+      </restaurant>
+    </zona>
+    <zona nom="Profes">
+      <restaurant nom="Cantina del Coper">
+        <servei>Taula</servei>
+        <menuEspecial>Celíac</menuEspecial>
+        <menuEspecial>Infantil</menuEspecial>
+      </restaurant>
+      <restaurant nom="Un entrepà express">
+        <servei>Autoservei</servei>
+        <menuEspecial>Celíac</menuEspecial>
+      </restaurant>
+    </zona>
+  </restaurants>
+  <botigues>
+    <zona nom="ESO">
+      <botiga nom="ESOTenda">
+        <servei>Servei de recollida</servei>
+        <producte>Souvenirs</producte>
+      </botiga>
+      <botiga nom="Fotos Profe-Profe">
+        <producte>Fotografies</producte>
+      </botiga>
+      <botiga nom="Fotos Pati Mission">
+        <producte>Fotografies</producte>
+      </botiga>
+    </zona>
+    <zona nom="Batxillerat">
+      <botiga nom="Fotos Furius Selectivity">
+        <producte>Fotografies</producte>
+      </botiga>
+      <botiga nom="Records CoperAvetura">
+        <servei>Servei de recollida</servei>
+        <producte>Souvenirs</producte>
+      </botiga>
+      <botiga nom="Dolços del mes">
+        <producte>Llaminadures</producte>
+      </botiga>
+    </zona>
+    <zona nom="GM">
+      <botiga nom="Fotos Pràctiques River Flume">
+        <producte>Fotografies</producte>
+      </botiga>
+      <botiga nom="Fotos Dies Festius Rapids">
+        <producte>Fotografies</producte>
+      </botiga>
+      <botiga nom="GM Store">
+        <servei>Servei de recollida</servei>
+        <producte>Souvenirs</producte>
+      </botiga>
+      <botiga nom="Dies Festius Rapids Shop">
+        <producte>Souvenirs</producte>
+        <producte>Llaminadures</producte>
+      </botiga>
+    </zona>
+    <zona nom="GS">
+      <botiga nom="Fotos Dual Khan">
+        <producte>Fotografies</producte>
+      </botiga>
+      <botiga nom="Fotos Dhambhala">
+        <producte>Fotografies</producte>
+      </botiga>
+      <botiga nom="GS Palace">
+        <servei>Servei de recollida</servei>
+        <producte>Souvenirs</producte>
+      </botiga>
+    </zona>
+    <zona nom="Profes">
+      <botiga nom="Fotos Hurakan Truancy">
+        <producte>Fotografies</producte>
+      </botiga>
+      <botiga nom="Hurakan Truancy Shop">
+        <servei>Servei de recollida</servei>
+        <producte>Souvenirs</producte>
+      </botiga>
+    </zona>
+  </botigues>
+</parc>
