@@ -10,7 +10,7 @@ En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
 
 <br/>
 
-### UF2. ÀMbits d'Aplicació de l'XML
+### UF2. Àmbits d'Aplicació de l'XML
 En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
 1. [Pràctica 01 - Sindicació de continguts](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M04_LLenguatgesDeMarques/UF2_AmbitsAplicacioXML/Pr%C3%A0ctica%20UF2-01_Sindicaci%C3%B3)
 2. [Pràctica 02 - XSL](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M04_LLenguatgesDeMarques/UF2_AmbitsAplicacioXML/Pr%C3%A0ctica%20UF2-02_XSL)
