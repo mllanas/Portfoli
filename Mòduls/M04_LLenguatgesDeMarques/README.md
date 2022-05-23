@@ -1,25 +1,23 @@
-# M04 - Llenguatges de Marques i Sistemes de Gestió Empresarial
+# 📂 M04 - Llenguatges de Marques i Sistemes de Gestió Empresarial
+
+<br/>
 
 ### UF1. Programació amb XML
 En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
-1. [Pràctica 01 - XML](https://htmlpreview.io/?...<--URL)
-2. [Pràctica 02 - XML:XSD](https://htmlpreview.io/?<--URL)
-3. [Pràctica UF1A2](https://htmlpreview.io/?<--URL)
-4. [Pràctica UF1A3](https://htmlpreview.io/?<--URL)
-5. [Pràctica UF1A4 - 01](https://htmlpreview.io/?<--URL)
-6. [Pràctica UF1A4 - 02](https://htmlpreview.io/?<--URL)
-7. [Pràctica UF1A5 - 01](https://htmlpreview.io/?<--URL)
-8. [Pràctica UF1A5 - 02](https://htmlpreview.io/?<--URL)
+1. [Pràctica 01 - XML](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M04_LLenguatgesDeMarques/UF1_ProgramacioAmbXML/Pr%C3%A0ctica%20UF1-01_%20Pr%C3%A0ctica%20XML)
+2. [Pràctica 02 - XML:XSD](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M04_LLenguatgesDeMarques/UF1_ProgramacioAmbXML/Pr%C3%A0ctica%20UF1-02_XSD)
+3. [Pràctica 03 - HTML-CSS](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mllanas/Portfoli/32b6aaab0b7af4090d88829489c2e4e40be8a38c/M%C3%B2duls/M04_LLenguatgesDeMarques/UF1_ProgramacioAmbXML/Pr%C3%A0ctica%20UF1-03_HTML-CSS/zones.html)
 
-### UF2. Disseny Modular
+<br/>
+
+### UF2. ÀMbits d'Aplicació de l'XML
 En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
-1. [Pràctica UF2A1 - 01](https://htmlpreview.io/?<--URL)
-2. [Pràctica UF2A1 - 02](https://htmlpreview.io/?<--URL)
+1. [Pràctica 01 - Sindicació de continguts](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M04_LLenguatgesDeMarques/UF2_AmbitsAplicacioXML/Pr%C3%A0ctica%20UF2-01_Sindicaci%C3%B3)
+2. [Pràctica 02 - XSL](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M04_LLenguatgesDeMarques/UF2_AmbitsAplicacioXML/Pr%C3%A0ctica%20UF2-02_XSL)
+3. [Pràctica 03 - Xquery amb BaseX](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M04_LLenguatgesDeMarques/UF2_AmbitsAplicacioXML/Pr%C3%A0ctica%20UF2-03_Xquery%20amb%20BaseX)
 	
-### UF3. Gestió de fitxers
-En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
-1. [Pràctica UF3](https://htmlpreview.io/?<--URL)
+<br/>
 
-### UF4. Gestió de fitxers
+### UF3. Sistemes de Gestió Empresarial
 En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
-1. [Pràctica UF4](https://htmlpreview.io/?<--URL)
+1. [Pràctica 01]
