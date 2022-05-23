@@ -12,3 +12,9 @@ En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
 ### UF2. Llenguatges SQL: DML i DDL
 En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
 1. [Generació d'una BD amb DDL](https://htmlpreview.github.io/?https://github.com/mllanas/Portfoli/blob/main/M%C3%B2duls/M02_BasesDeDades/UF2/DAM_UF2_P1_GeneracioBDambDDL.html)
+
+<br/>
+
+### UF3. Llenguatge SQL: DCL i extensió procedimental
+En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
+1. [Usuaris i Permisos]
