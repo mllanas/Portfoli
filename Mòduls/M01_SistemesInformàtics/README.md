@@ -18,5 +18,5 @@ En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
 <br/>
 
 ### UF3. Implantació de programari específic
-En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
+En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
 1. [VNC i SSH](https://htmlpreview.github.io/?https://github.com/mllanas/Portfoli/blob/11ec47bfcc0db80d324f5205726ab66cadf1a52d/M%C3%B2duls/M01_SistemesInform%C3%A0tics/UF3/DAM_UF3_P1_PracticaVNC-SSH/PracticaVNC-SSH.html)
