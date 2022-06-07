@@ -24,7 +24,8 @@ En aquesta Unitat Formativa hem desenvolupat les següents **pràctiques**:
   
 ### UF3. Gestió de Fitxers
 En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
-1. [Pràctica UF3](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M03-Programaci%C3%B3/UF3_GestioFitxers)
+1. [Pràctica UF3 (Enunciat)](https://htmlpreview.github.io/?https://github.com/mllanas/Portfoli/blob/b7875e681d099cc885f847b5ab3c2d1db50ae60d/M%C3%B2duls/M03-Programaci%C3%B3/UF3_GestioFitxers/EnunciatPr%C3%A0ctica/enunciatPractica.html)
+2. [Pràctica UF3 (Fitxers)](https://github.com/mllanas/Portfoli/tree/main/M%C3%B2duls/M03-Programaci%C3%B3/UF3_GestioFitxers/ArxiusNetbeans/src/cat/copernic/m03/uf3p1)
 
 <br/>
 
