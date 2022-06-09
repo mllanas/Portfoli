@@ -20,7 +20,8 @@ En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
 1. [Usuaris i Permisos]
 
 <br/>
-
+<!--
 ### UF4. Bases de dades objecte-relacionals
 En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
 1. [MongoDB]
+-->
