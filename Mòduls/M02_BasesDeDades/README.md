@@ -17,7 +17,7 @@ En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
 
 ### UF3. Llenguatge SQL: DCL i extensió procedimental
 En aquesta Unitat Formativa hem desenvolupat la següent **pràctica**:
-1. [Usuaris i Permisos]
+1. [Usuaris i Permisos](https://github.com/mllanas/Portfoli/blob/main/M%C3%B2duls/M02_BasesDeDades/UF3/Practica%20UF3P1%20-%20Usuaris%20i%20permisos.sql)
 
 <br/>
 <!--
